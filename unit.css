@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    width: 13rem;
+    height: 10rem;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 1em;
+    line-height: 1.5;
+}
+h1{
+    font-size: 3rem;
+    color: whitesmoke;
+
+}
+p{
+    font-size: 1rem ;
+}
+button{
+    cursor: pointer;
+    padding-right: 1rem;
+    height: 30px;
+    font-size: 1rem;
+}
+@media (max-width:600px){
+    html{
+        font-size: 30px;
+        
+    }
+}
